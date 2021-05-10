@@ -3,9 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 06, 2017 at 11:50 AM
--- Server version: 5.7.14
--- PHP Version: 5.6.25
+-- Generation Time: May 08, 2021 at 03:50 PM
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -37,7 +36,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `email`, `password`) VALUES
-(1, 'sunnygkp10@gmail.com', '123456'),
+(1, 'navigusrajat', '123456'),
 (2, 'admin@admin.com', 'admin');
 
 -- --------------------------------------------------------
@@ -95,12 +94,7 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`id`, `name`, `email`, `subject`, `feedback`, `date`, `time`) VALUES
-('55846be776610', 'testing', 'sunnygkp10@gmail.com', 'testing', 'testing stART', '2015-06-19', '09:22:15pm'),
-('5584ddd0da0ab', 'netcamp', 'sunnygkp10@gmail.com', 'feedback', ';mLBLB', '2015-06-20', '05:28:16am'),
-('558510a8a1234', 'sunnygkp10', 'sunnygkp10@gmail.com', 'dl;dsnklfn', 'fmdsfld fdj', '2015-06-20', '09:05:12am'),
-('5585509097ae2', 'sunny', 'sunnygkp10@gmail.com', 'kcsncsk', 'l.mdsavn', '2015-06-20', '01:37:52pm'),
-('5586ee27af2c9', 'vikas', 'vikas@gmail.com', 'trial feedback', 'triaal feedbak', '2015-06-21', '07:02:31pm'),
-('5589858b6c43b', 'nik', 'nik1@gmail.com', 'good', 'good site', '2015-06-23', '06:12:59pm');
+('55846be776610', 'Rajat Garg', 'rajatg62@gmail.com', 'testing', 'Good Interface', '2021-05-08', '09:22:15pm');
 
 -- --------------------------------------------------------
 
@@ -123,14 +117,7 @@ CREATE TABLE `history` (
 --
 
 INSERT INTO `history` (`email`, `eid`, `score`, `level`, `sahi`, `wrong`, `date`) VALUES
-('sunnygkp10@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2015-06-23 09:31:26'),
-('sunnygkp10@gmail.com', '558920ff906b8', 4, 2, 2, 0, '2015-06-23 13:32:09'),
-('avantika420@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2015-06-23 14:33:04'),
-('avantika420@gmail.com', '5589222f16b93', 4, 2, 2, 0, '2015-06-23 14:49:39'),
-('sunnygkp10@gmail.com', '5589741f9ed52', 4, 5, 3, 2, '2015-06-23 15:07:16'),
-('mi5@hollywood.com', '5589222f16b93', 4, 2, 2, 0, '2015-06-23 15:12:56'),
-('nik1@gmail.com', '558921841f1ec', 1, 2, 1, 1, '2015-06-23 16:11:50'),
-('sunnygkp10@gmail.com', '5589222f16b93', 1, 2, 1, 1, '2015-06-24 03:22:38');
+('rajatg62@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2021-05-08 09:31:26');
 
 -- --------------------------------------------------------
 
@@ -304,10 +291,7 @@ CREATE TABLE `rank` (
 --
 
 INSERT INTO `rank` (`email`, `score`, `time`) VALUES
-('sunnygkp10@gmail.com', 9, '2015-06-24 03:22:38'),
-('avantika420@gmail.com', 8, '2015-06-23 14:49:39'),
-('mi5@hollywood.com', 4, '2015-06-23 15:12:56'),
-('nik1@gmail.com', 1, '2015-06-23 16:11:50');
+('rajatg62@gmail.com', 9, '2020-05-08 03:22:38');
 
 -- --------------------------------------------------------
 
@@ -329,15 +313,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`name`, `gender`, `college`, `email`, `mob`, `password`) VALUES
-('Avantika', 'F', 'KNIT sultanpur', 'avantika420@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
-('Mark Zukarburg', 'M', 'Stanford', 'ceo@facebook.com', 987654321, 'e10adc3949ba59abbe56e057f20f883e'),
-('Komal', 'F', 'KNIT sultanpur', 'komalpd2011@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
-('Tom Cruze', 'M', 'Hollywood', 'mi5@hollywood.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
-('Netcamp', 'M', 'KNIT sultanpur', 'netcamp@gmail.com', 987654321, 'e10adc3949ba59abbe56e057f20f883e'),
-('Nikunj', 'M', 'XYZ', 'nik1@gmail.com', 987, '202cb962ac59075b964b07152d234b70'),
-('Sunny', 'M', 'KNIT sultanpur', 'sunnygkp10@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
-('User', 'M', 'cimt', 'user@user.com', 11, 'e10adc3949ba59abbe56e057f20f883e'),
-('Vikash', 'M', 'KNIT sultanpur@gmail.com', 'vikash@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e');
+('Rajat Garg', 'M', 'Lovely Professional University', 'rajatg62@gmail.com', 8968950205, 'e10adc3949ba59abbe56e057f20f883e');
 
 --
 -- Indexes for dumped tables
