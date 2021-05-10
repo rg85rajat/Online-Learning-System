@@ -111,6 +111,17 @@ Student can't signup with same e-mail address.
 
 About Developer; Lol it's me ! 
 
+# Postman Endpoints
+
+![1Capture](https://user-images.githubusercontent.com/72291911/117716182-e8c18580-b1f6-11eb-8eb0-b00898144f12.JPG)
+ 
+ index.php Endpoint
+ 
+![2Capture](https://user-images.githubusercontent.com/72291911/117716193-e9f2b280-b1f6-11eb-8e24-ab6aa76aff5d.JPG)
+
+account.php Endpoint
+
+
 
 
 
