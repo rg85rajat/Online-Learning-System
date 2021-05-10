@@ -12,12 +12,12 @@
  <script src="js/jquery.js" type="text/javascript"></script>
 
   <script src="js/bootstrap.min.js"  type="text/javascript"></script>
- 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
 <?php if(@$_GET['w'])
 {echo'<script>alert("'.@$_GET['w'].'");</script>';}
 ?>
 <script>
-function validateForm() {var y = document.forms["form"]["name"].value;	var letters = /^[A-Za-z]+$/;if (y == null || y == "") {alert("Name must be filled out.");return false;}var z =document.forms["form"]["college"].value;if (z == null || z == "") {alert("college must be filled out.");return false;}var x = document.forms["form"]["email"].value;var atpos = x.indexOf("@");
+function validateForm() {var y = document.forms["form"]["name"].value;  var letters = /^[A-Za-z]+$/;if (y == null || y == "") {alert("Name must be filled out.");return false;}var z =document.forms["form"]["college"].value;if (z == null || z == "") {alert("college must be filled out.");return false;}var x = document.forms["form"]["email"].value;var atpos = x.indexOf("@");
 var dotpos = x.lastIndexOf(".");if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {alert("Not a valid e-mail address.");return false;}var a = document.forms["form"]["password"].value;if(a == null || a == ""){alert("Password must be filled out");return false;}if(a.length<5 || a.length>25){alert("Passwords must be 5 to 25 characters long.");return false;}
 var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords must match.");return false;}}
 </script>
@@ -31,7 +31,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="col-lg-6">
 <span class="logo">Adaptive Learning Platform</span></div>
 <div class="col-md-2 col-md-offset-4">
-<a href="#" class="pull-right btn sub1" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp;<span class="title1"><b>Signin</b></span></a></div>
+<a href="#" class="pull-right btn sub1" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp;<span class="title1"><b>Sign In</b></span></a></div>
 <!--sign in modal start-->
 <div class="modal fade" id="myModal">
   <div class="modal-dialog">
@@ -68,7 +68,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="submit" class="btn btn-primary">Log in</button>
-		</fieldset>
+    </fieldset>
 </form>
       </div>
     </div>
@@ -79,11 +79,11 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 </div>
 </div>
 
-<div class="bg1">
-<div class="row">
+  <div class="bg1" style="background-size: cover; background-repeat: no-repeat;">
+  <div class="row">
 
-<div class="col-md-7"></div>
-<div class="col-md-4 panel">
+  <div class="col-md-7"></div>
+  <div class="col-md-4 panel">
 <!-- sign in form begins -->  
   <form class="form-horizontal" name="form" action="sign.php?q=account.php" onSubmit="return validateForm()" method="POST">
 <fieldset>
@@ -171,17 +171,17 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 </div><!--container end-->
 
 
-<div class="row footer">
-<div class="col-md-3 box">
-<a href="https://drive.google.com/file/d/1qIXGVzSFjSQXQbYPTjS9X9bhRsOR3ePc/view?usp=sharing" target="_blank">About us</a>
+<div class="row footer" style="height: 111px" >
+<div class="col-md-3 box" style="padding-top: 30px">
+<a href="https://drive.google.com/file/d/1qIXGVzSFjSQXQbYPTjS9X9bhRsOR3ePc/view?usp=sharing" style="font-size: 25px;" target="_blank">About us</a>
 </div>
-<div class="col-md-3 box">
-<a href="#" data-toggle="modal" data-target="#login">Teacher Login</a></div>
-<div class="col-md-3 box">
-<a href="#" data-toggle="modal" data-target="#developers">Developer</a>
+<div class="col-md-3 box" style="padding-top: 30px">
+<a href="#" data-toggle="modal" data-target="#login" style="font-size: 25px;">Teacher Login</a></div>
+<div class="col-md-3 box" style="padding-top: 30px">
+<a href="#" data-toggle="modal" data-target="#developers" style="font-size: 25px;">Developer</a>
 </div>
-<div class="col-md-3 box">
-<a href="feedback.php" target="_blank">Feedback</a></div></div>
+<div class="col-md-3 box" style="padding-top: 30px">
+<a href="feedback.php" target="_blank" style="font-size: 25px;">Feedback</a></div></div>
 
 <div class="modal fade title1" id="developers">
   <div class="modal-dialog">
@@ -190,19 +190,19 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
         <h4 class="modal-title" style="font-family:'typo' "><span style="color:orange">Developers</span></h4>
       </div>
-	  
+    
       <div class="modal-body">
         <p>
-		<div class="row">
-		<div class="col-md-4">
-		 <img src="image/rajat.jpeg" width=100 height=100 alt="Rajat Garg" class="img-rounded">
-		 </div>
-		 <div class="col-md-5">
-		<a href="https://www.facebook.com/rajatg62" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Rajat Garg</a>
-		<h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+91 8968950205</h4>
-		<h4 style="font-family:'typo' ">rajatg62@gmail.com</h4>
-		<h4 style="font-family:'typo' ">Lovely Professional University</h4></div></div>
-		</p>
+    <div class="row">
+    <div class="col-md-4">
+     <img src="image/rajat.jpeg" width=100 height=100 alt="Rajat Garg" class="img-rounded">
+     </div>
+     <div class="col-md-5">
+    <a href="https://www.facebook.com/rajatg62" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Rajat Garg</a>
+    <h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+91 8968950205</h4>
+    <h4 style="font-family:'typo' ">rajatg62@gmail.com</h4>
+    <h4 style="font-family:'typo' ">Lovely Professional University</h4></div></div>
+    </p>
       </div>
     
     </div>
@@ -210,7 +210,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 </div>
 
 <!--Modal for teacher login-->
-	 <div class="modal fade" id="login">
+   <div class="modal fade" id="login">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
