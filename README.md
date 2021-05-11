@@ -119,6 +119,10 @@ Student can't signup with same e-mail address.
 
 About Developer; Lol it's me ! 
 
+![Database](https://user-images.githubusercontent.com/72291911/117763839-1fc08700-b249-11eb-8df4-dd40a85b26c4.JPG)
+
+Database created using php MySQL
+
 # Postman Endpoints
 
 ![1Capture](https://user-images.githubusercontent.com/72291911/117716182-e8c18580-b1f6-11eb-8eb0-b00898144f12.JPG)
