@@ -1,5 +1,13 @@
 # Navigus-Adaptive-Learning
 
+# As project is made using PHP and MySQL, Glitch.com was hoarding to host the project.
+
+# Project is hosted on: 
+
+Link posted in google form too under "Any Additional Links"
+
+http://naviguslearning.epizy.com/
+
 
   
 # Front end:
