@@ -1,4 +1,4 @@
-# Navigus-Adaptive-Learning
+# Online Examination System
 
 # As project is made using PHP and MySQL, Glitch.com was hoarding to host the project.
 
